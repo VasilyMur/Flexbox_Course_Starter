@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>FlexBox Nav</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style-start.css">
+</head>
+<body>
+
+  <!-- Header + Навигация -->
+  <header>
+    <div class="header-wrap">
+      <nav class="flex-nav">
+        <ul>
+          <li class="logo">
+            <a href="https://stackdev.ru"><i class="fa fa-google-wallet"></i></a>
+          </li>
+          <li><a href="#">Item 01</a></li>
+          <li><a href="#">Item 02</a></li>
+          <li><a href="#">Item 03</a></li>
+          <li><a href="#">Item 04</a></li>
+          <li><a href="#">Item 05</a></li>
+          <li class="signup">
+            <a href="https://stackdev.ru">Sign In<i class="fa fa-angle-right"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="content">
+    <!-- Фоновое облако 1 -->
+    <div class="cloud_background_left">
+      <img src="cloudLeft.svg" alt="cloud left" />
+    </div>
+
+    <!-- Фоновое облако 2 -->
+    <div class="cloud_background_right">
+      <img src="cloudRight.svg" alt="cloud left" />
+    </div>
+
+    <!-- Карточки с тарифами -->
+    <div class="pricing-cards">
+
+      <div class="card">        
+        <h2>Basic</h2>
+        <p>Focus on building and deploying basic apps from scratch.</p>
+        <ul class="features">
+          <li>Custom domains</li>
+          <li>Deploy with Git</li>
+          <li>Scale automatically</li>
+        </ul>
+  
+        <p class="price">free</p>
+  
+        <a href="#" class="buyButton">Subscribe</a>
+      </div>  
+
+      <div class="card">       
+        <h2>Premium</h2>
+        <p>Mission-critical apps with complex functionality that require handling a high volume of concurrent requests.</p>
+        <ul class="features">
+          <li>24 hour support</li>
+          <li>Free daily backups</li>
+          <li>Highly scalable</li>
+          <li>Advanced control panel</li>
+        </ul> 
+
+        <p class="price">$89</p>
+  
+        <a href="#" class="buyButton">Buy now →</a>
+      </div>
+  
+      <div class="card">       
+        <h2>Pro</h2>
+        <p>Best in class!</p>
+        <ul class="features">
+          <li>Deploy in seconds</li>
+          <li>Easy upgrades</li>
+          <li>Reliable support</li>
+        </ul>
+  
+        <p class="price">$15</p>
+  
+        <a href="#" class="buyButton">Subscribe</a>
+      </div>
+  
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; StackDev</p>
+  </footer>
+
+</body>
+</html>
